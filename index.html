@@ -90,22 +90,16 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">RVN-Bench</h1>
-            <p class="subtitle is-3" style="margin-top: -1rem; margin-bottom: 2rem; color: var(--text-secondary);">
+            <p class="subtitle is-2" style="margin-top: -1rem; margin-bottom: 2rem; color: #000000; font-weight: 700;">
               A Benchmark for Reactive Visual Navigation
             </p>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a href="#">Jaewon Lee</a><sup>1,2</sup>,</span>
-              <span class="author-block">
-                <a href="#">Jaeseok Heo</a><sup>1,2</sup>,</span>
-              <span class="author-block">
-                <a href="#">Gunmin Lee</a><sup>1</sup>,</span>
-              <span class="author-block">
-                <a href="#">Howoong Jun</a><sup>1,2</sup>,</span>
-              <span class="author-block">
-                <a href="#">Jeongwoo Oh</a><sup>2</sup>,</span>
-              <span class="author-block">
-                <a href="#">Songhwai Oh</a><sup>1,2</sup></span>
+              <span class="author-block">Jaewon Lee<sup>1,2</sup>,</span>
+              <span class="author-block">Jaeseok Heo<sup>1,2</sup>,</span>
+              <span class="author-block">Gunmin Lee<sup>1</sup>,</span>
+              <span class="author-block">Howoong Jun<sup>1,2</sup>,</span>
+              <span class="author-block">Jeongwoo Oh<sup>2</sup>,</span>
+              <span class="author-block">Songhwai Oh<sup>1,2</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
@@ -173,12 +167,12 @@ End Teaser -->
 
 
 <!-- Abstract -->
-<section class="section hero is-light">
+<section class="section" style="background: #ffffff;">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-justified" style="color: #000000;">
           <p>
             Safe visual navigation is critical for indoor mobile robots operating in cluttered environments. Existing benchmarks, however, often neglect collisions or are designed for outdoor scenarios, making them unsuitable for indoor visual navigation. To address this limitation, we introduce the reactive visual navigation benchmark (RVN-Bench), a collision-aware benchmark for indoor mobile robots. In RVN-Bench, an agent must reach sequential goal positions in previously unseen environments using only visual observations and no prior map, while avoiding collisions. Built on the Habitat 2.0 simulator and leveraging high-fidelity HM3D scenes, RVN-Bench provides large-scale, diverse indoor environments, defines a collision-aware navigation task and evaluation metrics, and offers tools for standardized training and benchmarking. RVN-Bench supports both online and offline learning by offering an environment for online reinforcement learning, a trajectory image dataset generator, and tools for producing negative trajectory image datasets that capture collision events. Experiments show that policies trained on RVN-Bench generalize effectively to unseen environments, demonstrating its value as a standardized benchmark for safe and robust visual navigation. We will release the RVN-Bench code to support further research.
           </p>
